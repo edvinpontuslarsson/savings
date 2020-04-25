@@ -9,5 +9,5 @@ while(years < 40):
 
     years += 1
 
-    if (years < 10 or years % 10 == 0):
+    if (years < 10 or years % 5 == 0):
         print("$", '{:,}'.format(round(savings)), "after", years, "years")
